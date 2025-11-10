@@ -50,6 +50,7 @@ contract Authentifi {
     struct retailerObj {
         string name;
         string location;
+        string explain;
     }
 
     mapping (string => codeObj) codeArr;
